@@ -1,0 +1,111 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(91, 55, 231);
+}
+.titulo {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.caixa {
+  background-color: white;
+  gap: 20px;
+  padding: 30px 75px;
+  margin: 20px;
+  height: 400px;
+  width: 250px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 80px;
+  box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.3);
+}
+
+.emoji {
+  font-size: 60px;
+  text-align: center;
+}
+
+.caixa-meio {
+  background-color: white;
+  text-align: center;
+  gap: 20px;
+  padding: 30px 75px;
+  margin: 20px;
+  height: 460px;
+  width: 250px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.3);
+}
+
+.subitulo-emoji {
+  font-size: 30px;
+  color: rgb(251, 198, 41);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(91, 55, 231);
+  font-size: 50px;
+}
+span {
+  font-size: 25px;
+}
+
+div {
+  display: flex;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.caixa-descricao{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(150, 150, 150);
+  line-height: 1.5;
+}
+
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(91, 55, 231);
+  font-weight: bold;
+  
+}
+
+.botao-caixa{
+  padding: 15px 20px;
+  background-color: rgb(91, 55, 231);
+  color: white;
+  margin-top: 40px;
+}
+@media (max-width: 800px) {
+  div{
+    margin-top: 40px;
+  }
+}
+
+
+
